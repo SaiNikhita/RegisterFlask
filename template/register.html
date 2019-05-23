@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION FORM </title>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/signup" method="post">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input name="name" type="text"/></td>
+        </tr>
+        <tr>
+            <td>EMAIL-ID:</td>
+            <td><input name="email" type="text"/></td>
+        </tr>
+        <tr>
+            <td>PHONE NUMBER:</td>
+            <td><input name="pno" type="text"/></td>
+        </tr>
+
+
+        <tr>
+            <td>SEX:</td>
+            <td><input name="sex" type="radio" name="radiobutton" VALUE="male">M
+                <input name="sex" type="radio" name="radiobutton" VALUE="female">F
+            </td>
+        </tr>
+        <tr>
+            <td>DOB:</td>
+            <td><input name="dob" type="date" name="bday"></td>
+
+        </tr>
+        <tr>
+            <td> Education:</td>
+            <td><select name="edu">
+                <option value="B.tech">B.tech</option>
+                <option value="B.E">B.E</option>
+                <option value="BCA">BCA</option>
+                <option value="Intermediate">Intermediate</option>
+            </select>
+            </td>
+        <tr>
+            <td><input type ="submit" value="submit"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
